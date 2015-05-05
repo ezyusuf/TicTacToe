@@ -1,13 +1,28 @@
+body{
+  background-image: url("http://www.pascalvangemert.nl/view/images/background.jpg");
+  background-color: #22A39F;
+  opacity: 0.75
+}
+
 h1{
   text-decoration: underline;
+  color:black;
+  text-align: center;
+  background-color: rgb(28, 203, 144);
 }
 table,td{
   border: 2px solid black;
-  width:500px;
-  height: 100px;
+  width:900px;
+  height: 160px;
+  background-color: rgb(0, 197, 255);
+  margin-left:175px;
+}
+
+table{
 }
 
 td{
   text-align: center;
   font-size: 50px;
+  color:blue;
 }
